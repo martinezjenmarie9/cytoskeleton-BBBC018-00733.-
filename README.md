@@ -36,13 +36,13 @@ In my figure, the actin image shows cells with mostly rounded or irregular shape
 
 ## 3. Plots
 
-### Plot 1: Cell Selection Image
-- **Purpose:** Shows the five selected cells in the chosen field.
-- **File:** `plot1.png`
+### Plot 1: Area vs. Circulatory
+- **Purpose:** Shows the relationship between cell area and circularity for the five cells measured in Fiji.
+- **File:** [Area_vs._Circulatory.png](https://github.com/martinezjenmarie9/cytoskeleton-BBBC018-00733.-/blob/main/figures/area_vs_circularity.png)
 
-### Plot 2: Cell Measurement Plot
-- **Purpose:** Presents the measurements of the five selected cells.
-- **File:** `plot2.png`
+### Plot 2: Actin Intesity
+- **Purpose:** Shows the mean actin fluorescence intensity of the five cells measured using Fiji.
+- **File:** [Actin_Intensity.png](https://github.com/martinezjenmarie9/cytoskeleton-BBBC018-00733.-/blob/main/figures/actin_intensity.png)
 
 ## Questions
 * 1. Which specific phenotype did you choose, and what visible features support that choice?
