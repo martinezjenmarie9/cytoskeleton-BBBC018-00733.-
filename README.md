@@ -14,11 +14,11 @@
 **Dataset download:** https://bbbc.broadinstitute.org/BBBC018
 
 
-## 2. Brief Fiji Steps
+## Brief Fiji Steps
 
 * Download and extract the [BBBC018 image dataset](https://bbbc.broadinstitute.org/BBBC018).
 
-* Open 00733-Actin.DIB in Fiji using **File → Open**. If it fails, try **File → Import → Bio-Formats**.
+* Open `00733-Actin.DIB` in Fiji using **File → Open**. If it fails, try **File → Import → Bio-Formats**.
   
 * Open the matching `00733-DNA.DIB` file using the same method.
   
@@ -34,7 +34,7 @@
 
 In my figure, the actin image shows cells with mostly rounded or irregular shapes and visible actin staining around their boundaries. Compared with the prometaphase reference image from the Broad Institute dataset, some cells show changes in shape and actin organization that may be associated with cell division. However, actin staining alone cannot confirm prometaphase, so the DNA channel is also considered to look for condensed chromosomes.
 
-## 3. Plots
+## Plots
 
 ### Plot 1: Area vs. Circulatory
 - **Purpose:** Shows the relationship between cell area and circularity for the five cells measured in Fiji.
@@ -47,7 +47,7 @@ In my figure, the actin image shows cells with mostly rounded or irregular shape
 ## Questions
 * 1. Which specific phenotype did you choose, and what visible features support that choice?
 
-I chose the prometaphase stage of mitosis as my specific phenotype. Prometaphase is characterized by the breakdown of the nuclear envelope and the attachment of spindle microtubules to the chromosomes. The chromosomes begin moving toward the middle of the cell but have not yet fully aligned at the metaphase plate. These features can support the identification of prometaphase in a fluorescence image, although chromosome arrangement and spindle structure should be visible to confirm the stage.
+Prometaphase, stage of mitosis, was chosen as the specific phenotype. Prometaphase is characterized by the breakdown of the nuclear envelope and the attachment of spindle microtubules to the chromosomes. The chromosomes begin moving toward the middle of the cell but have not yet fully aligned at the metaphase plate. These features can support the identification of prometaphase in a fluorescence image, although chromosome arrangement and spindle structure should be visible to confirm the stage.
 * 2. Were your five cells mostly round or elongated? Refer to your circularity and aspect-ratio results.
      
 Based on my Fiji measurements, the five cells were mostly round to slightly elongated. Their circularity values ranged from 0.689 to 0.911, with an average of approximately 0.826. Since a circularity value closer to 1 indicates a more circular shape, most of the cells appeared relatively round. Their aspect ratios ranged from 1.024 to 1.856, with an average of approximately 1.347. Values closer to 1 indicate a rounder shape, while higher values indicate elongation. Overall, the results suggest that the cells were generally round, although some showed slight elongation.
